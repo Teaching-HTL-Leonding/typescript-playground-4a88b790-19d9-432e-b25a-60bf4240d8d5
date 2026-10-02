@@ -4,37 +4,43 @@ function setup() {
 
     scale(1,1);
 
+    stroke("black");
+
+    fill("darkgray");
+    triangle(70, 175, 95, 175, 82, 215);
+    triangle(120, 175, 145, 175, 132, 215);
+
     fill("gray");
-    triangle(115, 160, 133, 160, 124, 205);
-    triangle(135, 150, 151, 150, 143, 195);
-    triangle(185, 160, 203, 160, 194, 205);
-    triangle(205, 150, 221, 150, 213, 195);
+    triangle(55, 175, 80, 175, 67, 215);
+    triangle(105, 175, 130, 175, 117, 215);
+
+    circle(95, 140, 110);
+
+    fill("darkgray");
+    circle(140, 100, 70);
+
+    fill("gray");
+    circle(165, 120, 70);
+
+    stroke("gray");
+    fill("gray");
+    circle(188, 145, 18);
+    circle(194, 160, 16);
+    circle(198, 175, 14);
+    circle(196, 190, 12);
+    circle(188, 202, 10);
+    circle(178, 208, 8);
 
     stroke("black");
-    line(210, 100, 235, 125);
-    line(235, 125, 230, 145);
-    fill("gray");
-    circle(230, 147, 12);
-
-    fill("gray");
-    circle(160, 120, 110);
-    circle(85, 90, 85);
-
     fill("white");
-    triangle(105, 55, 145, 85, 105, 120);
+    triangle(188, 148, 208, 158, 188, 156);
 
-    fill("gray");
-    circle(60, 112, 30);
-    circle(55, 138, 26);
-    circle(58, 164, 22);
-    circle(68, 184, 18);
-    circle(78, 194, 14);
-
-    fill("white");
-    circle(75, 75, 12);
     fill("black");
-    circle(77, 75, 5);
+    circle(178, 108, 8);
 
-    fill("white");
-    triangle(78, 108, 110, 100, 82, 122);
+    stroke("gray");
+    line(42, 145, 27, 170);
+
+    fill("gray");
+    triangle(27, 170, 35, 166, 30, 180);
 }
