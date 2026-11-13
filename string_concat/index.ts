@@ -5,22 +5,22 @@ function setup() {
   noStroke();
   fill("aqua");
   circle(0, 0, 20);
-
+  
   fill("black");
   text(clickPositions, 5, 5, width - 10, height - 10);
 }
 
-let clickPositions: string = '0/0'
+let clickPositions: string = '0/0';
 
 function mouseClicked() {
   background("lightblue");
 
   fill("aqua");
   circle(mouseX, mouseY, 20);
-  clickPositions = `${clickPositions}, ${mouseX}/${mouseY}`;
+  clickPositions = `${clickPositions}, ${round(mouseX)}/${round(mouseY)}`;
 
-  fill("lightblue");
-  rect(0, 0, width, 20);
+  fill("lightblue")
+  rect(0, 0, width, 20),  
   fill("black");
-  text(clickPositions, 5, 5, width - 10, height - 10);
+  text(clickPositions, 5, 5, width - 10, height - 10);  
 }
